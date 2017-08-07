@@ -5,7 +5,7 @@
 - Keep this relationship in mind when designing your schema:
   + **One owner can have many properties**
 
-###Part 1: Create Tables
+### Part 1: Create Tables
 
 - The owners table should consist of:
   + `id` (this should be the primary key as well as a unique number that increments automatically)
@@ -18,7 +18,7 @@
   + `owner_id` - reference to owner table
     + Remember to create a foreign key constraint that references the owners table
 
-###Part 2: Insert Data
+### Part 2: Insert Data
 
 * Insert the following owners
     * Donald - age 29
@@ -31,7 +31,7 @@
     * Willowspring - 30 units
     * Add 3 more properties (you choose name / units)
 
-###Part 3: Use Your Database
+### Part 3: Use Your Database
 
 Write down the following sql statements that are required to solve the following tasks.
 
@@ -47,7 +47,7 @@ Write down the following sql statements that are required to solve the following
 * Show the names of the first three owners in your owners table.
 
 
-###Bonuses
+### Bonuses
 
 These might require you to look up documentation online, or look at the next section in the notes.
 
